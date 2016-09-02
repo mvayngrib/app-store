@@ -87,11 +87,17 @@
 
 <script>
   $(document).ready(function(){
-    $(".img").mouseenter(function(){
-      $(this).addClass("hover");
+    $(".img").each(function(){
       var qrcode = qr('http://blah.blah.com:oogle')
       qrcode.className = 'overlaycontent'
       $(this).find('.expand').empty().append(qrcode)
+    })
+
+    $(".img").mouseenter(function(){
+      $(this).addClass("hover");
+      // var qrcode = qr('http://blah.blah.com:oogle')
+      // qrcode.className = 'overlaycontent'
+      // $(this).find('.expand').empty().append(qrcode)
     })
     .mouseleave(function(){
       $(this).removeClass("hover");
