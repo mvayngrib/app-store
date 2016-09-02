@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/defunctzombie/qr-element/master/dist/qr.js"></script>
+  </head>
+  <body>
+
+    {{#each sections}}
+    <section>
+      <h1>{{title}}</h1>
+      <header id="effect-1" class="effects clearfix">
+        {{#each data}}
+        <div class="img" data-qr="{{qr}}">
+          <img src="{{img}}" alt>
+          <div class="caption">
+            {{caption}}
+          </div>
+          <div class="overlay">
+            <a href="#" class="expand"></a>
+            <a class="close-overlay hidden">x</a>
+          </div>
+        </div>
+        {{/each}}
+      </header>
+    </section>
+    {{/each}}
+
+    <script>
+      $(document).ready(function(){
+        $("[data-qr]").each(function(){
+          var qrcode = qr(this.dataset.qr)
+          qrcode.className = 'overlaycontent'
+          $(this).find('.expand').empty().append(qrcode)
+        })
+
+        $(".img").mouseenter(function(){
+          $(this).addClass("hover");
+        })
+        .mouseleave(function(){
+          $(this).removeClass("hover");
+        });
+      });
+    </script>
+  </body>
+</html>

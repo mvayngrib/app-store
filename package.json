@@ -1,0 +1,24 @@
+{
+  "name": "app-store",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "handlebars": "^4.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "render": "node render.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tradle/app-store"
+  },
+  "keywords": [],
+  "author": "Mark Vayngrib <mark@tradle.io> (http://github.com/mvayngrib)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tradle/app-store/issues"
+  },
+  "homepage": "https://github.com/tradle/app-store"
+}
