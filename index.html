@@ -1,0 +1,102 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.rawgit.com/defunctzombie/qr-element/master/dist/qr.js"></script>
+</head>
+<body>
+
+<section>
+  <h1>e-Estonia Government Apps</h1>
+  <header id="effect-1" class="effects clearfix">
+    <div class="img">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-1.jpg" alt>
+      <div class="caption">
+        E-Residency
+      </div>
+      <div class="overlay">
+        <a href="#" class="expand"></a>
+        <a class="close-overlay hidden">x</a>
+      </div>
+    </div>
+    <div class="img">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-2.jpg" alt>
+      <div class="caption">
+        Company and activity license
+      </div>
+      <div class="overlay">
+        <a href="#" class="expand"></a>
+        <a class="close-overlay hidden">x</a>
+      </div>
+    </div>
+    <div class="img">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-3.jpg" alt>
+      <div class="caption">
+        Culture and leisure
+      </div>
+      <div class="overlay">
+        <a href="#" class="expand"></a>
+        <a class="close-overlay hidden">x</a>
+      </div>
+    </div>
+    <div class="img">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-4.jpg" alt>
+      <div class="caption">
+        Environment
+      </div>
+      <div class="overlay">
+        <a href="#" class="expand"></a>
+        <a class="close-overlay hidden">x</a>
+      </div>
+    </div>
+    <!--div class="img">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-5.jpg" alt>
+      <div class="overlay">
+        <a href="#" class="expand"></a>
+        <a class="close-overlay hidden">x</a>
+      </div>
+    </div-->
+    <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
+  </header>
+</section>
+<section>
+  <h1>e-Estonia Third Party Apps</h1>
+  <header id="effect-1" class="effects clearfix">
+    <div class="img">
+      <div class="caption">
+        LHV bank
+      </div>
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-1.jpg" alt>
+      <div class="overlay">
+        <a href="#" class="expand"></a>
+        <a class="close-overlay hidden">x</a>
+      </div>
+    </div>
+    <div class="img">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-2.jpg" alt>
+      <div class="caption">
+        Crowdfunder
+      </div>
+      <div class="overlay">
+        <a href="#" class="expand"></a>
+        <a class="close-overlay hidden">x</a>
+      </div>
+    </div>
+  </header>
+</section>
+
+<script>
+  $(document).ready(function(){
+    $(".img").mouseenter(function(){
+      $(this).addClass("hover");
+      var qrcode = qr('http://blah.blah.com:oogle')
+      qrcode.className = 'overlaycontent'
+      $(this).find('.expand').empty().append(qrcode)
+    })
+    .mouseleave(function(){
+      $(this).removeClass("hover");
+    });
+  });
+</script>
+</body>
+</html>
