@@ -3,21 +3,21 @@ module.exports = [
   {
     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-1.jpg',
     caption: 'E-residency',
-    qr: 'bippity boppity boo'
+    qr: '5;http://192.168.0.20/eresidency'
   },
   {
     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-2.jpg',
     caption: 'Company and activity license',
-    qr: 'bippity boppity boo'
+    qr: '5;http://192.168.0.20/eresidency'
   },
   {
     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-3.jpg',
     caption: 'Culture and leisure',
-    qr: 'bippity boppity boo'
+    qr: '5;http://192.168.0.20/cultureAndLeisure'
   },
   {
     img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/jeremiah-wilson-4.jpg',
     caption: 'Environment',
-    qr: 'bippity boppity boo'
+    qr: '5;http://192.168.0.20/environment'
   }
 ]
