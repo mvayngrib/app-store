@@ -5,7 +5,7 @@ module.exports = [
   {
     img: 'images/eresidency.png',
     caption: 'E-residency',
-    qr: `5;${base};eres`
+    // qr: `5;${base};eres`
   },
   {
     img: 'images/caal1.png',

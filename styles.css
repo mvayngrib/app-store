@@ -145,7 +145,7 @@ a.expand {
   transition: all 0.3s;
 }
 
-.img.hover .caption {
+.img.hover[data-qr] .caption {
   opacity: 0;
 }
 
