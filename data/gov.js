@@ -10,16 +10,16 @@ module.exports = [
   {
     img: 'images/caal1.png',
     caption: 'Company and activity licence',
-    qr: `5;${base}:44444;caal`
+    qr: `5;${base};caal`
   },
   {
     img: 'images/cal1.png',
     caption: 'Culture and leisure',
-    qr: `5;${base}:44444;cal`
+    qr: `5;${base};cal`
   },
   {
     img: 'images/environment1.png',
     caption: 'Environment',
-    qr: `5;${base}:44444;environment`
+    qr: `5;${base};environment`
   }
 ]
