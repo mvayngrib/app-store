@@ -29,7 +29,11 @@
     <script>
       $(document).ready(function(){
         $("[data-qr]").each(function(){
-          var qrcode = qr(this.dataset.qr)
+          var qrcode = qr(this.dataset.qr, {
+            background: '#000',
+            foreground: '#fff'
+          })
+
           qrcode.className = 'overlaycontent'
           $(this).find('.expand').empty().append(qrcode)
         })
