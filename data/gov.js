@@ -5,11 +5,11 @@ module.exports = [
   {
     img: 'images/singpass.jpg',
     caption: 'E-Identity',
-    qr: `5;${base};eres`
+    qr: `5;${base};seres`
   },
   {
     img: 'images/rocket.jpg',
     caption: 'Register a Company',
-    qr: `5;${base};creg`
+    qr: `5;${base};sregco`
   }
 ]

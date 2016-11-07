@@ -6,13 +6,13 @@ module.exports = [
     img: 'images/notary.jpg',
     caption: 'Notary',
     by: 'Singapore Notaries',
-    qr: `5;${base};notary`
+    qr: `5;${base};snotary`
   },
   {
     img: 'images/contract1.jpg',
     caption: 'Contract Machine',
     by: 'Iron Clad',
-    qr: `5;${base};contracts`
+    qr: `5;${base};scontracts`
   },
   // {
   //   img: 'images/guarantee.jpg',
@@ -23,12 +23,12 @@ module.exports = [
     img: 'images/loans.jpg',
     caption: 'Borrow More',
     by: 'Friendly Bank',
-    qr: `5;${base};loans`
+    qr: `5;${base};sloans`
   },
   {
     img: 'images/charity.jpg',
     caption: 'Sponsor a Child',
     by: 'Charitee',
-    qr: `5;${base};charity`
+    qr: `5;${base};scharity`
   }
 ]
