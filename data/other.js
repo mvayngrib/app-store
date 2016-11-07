@@ -3,13 +3,28 @@ const base = process.argv[2] || 'http://localhost'
 
 module.exports = [
   {
-    img: 'images/lhv.jpg',
-    caption: 'LHV Bank',
-    qr: `5;${base};lhv`
+    img: 'images/notary.jpg',
+    caption: 'Notary',
+    qr: `5;${base};notary`
   },
   {
-    img: 'images/crowdfunder1.jpg',
-    caption: 'Crowdfunder',
-    qr: `5;${base};crowdfunder`
+    img: 'images/contract1.jpg',
+    caption: 'Contract Machine',
+    qr: `5;${base};contracts`
   },
+  // {
+  //   img: 'images/guarantee.jpg',
+  //   caption: 'Bank guarantee',
+  //   qr: `5;${base};guarantee`
+  // },
+  {
+    img: 'images/loans.jpg',
+    caption: 'Borrow more!',
+    qr: `5;${base};loans`
+  },
+  {
+    img: 'images/charity.jpg',
+    caption: 'Sponsor a child',
+    qr: `5;${base};charity`
+  }
 ]
