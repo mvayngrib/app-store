@@ -18,7 +18,7 @@ module.exports = [
     img: 'images/corpAction.png',
     title: 'Board Decisions',
     description: 'Perform corporate actions from M&A to e-shares',
-    qr: `5;${base};scorpact`
+    qr: `5;${base};sboardact`
   },
   {
     img: 'images/loans.jpg',
