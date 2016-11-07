@@ -10,13 +10,13 @@ module.exports = [
   },
   {
     img: 'images/contract1.jpg',
-    title: 'Shake',
+    title: 'Shake on it',
     description: 'Create and sign contracts',
     qr: `5;${base};scontracts`
   },
   {
     img: 'images/corpAction.png',
-    title: 'CorpTask',
+    title: 'Board Decisions',
     description: 'Perform corporate actions from M&A to e-shares',
     qr: `5;${base};scorpact`
   },

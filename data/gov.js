@@ -11,7 +11,7 @@ module.exports = [
   {
     img: 'images/rocket.jpg',
     title: 'BizReg',
-    description: 'register your company',
+    description: 'launch your biz',
     qr: `5;${base};sregco`
   }
 ]
