@@ -15,7 +15,10 @@
           <div class="img" data-qr="{{qr}}">
             <img src="{{img}}" alt>
             <div class="caption">
-              {{caption}}
+              <span class="captionA">{{caption}}</span>
+              {{#if by}}
+                <span class="captionB">&nbsp;by&nbsp;{{by}}</span>
+              {{/if}}
             </div>
             <div class="overlay">
               <a href="#" class="expand"></a>
@@ -26,7 +29,10 @@
           <div class="img">
             <img src="{{img}}" alt>
             <div class="caption">
-              {{caption}}
+              <span class="captionA">{{caption}}</span>
+              {{#if by}}
+                <span class="captionB">&nbsp;by&nbsp;{{by}}</span>
+              {{/if}}
             </div>
           </div>
           {{/if}}

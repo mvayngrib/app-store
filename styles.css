@@ -165,3 +165,13 @@ a.expand {
 #effect-1 .img.hover .overlay {
   height: 100%;
 }
+
+.captionA {
+  /*font-style: bold;*/
+  color: #fae0e0;
+}
+
+.captionB {
+  font-style: italic;
+  color: #d0d0d0;
+}
