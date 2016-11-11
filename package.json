@@ -12,7 +12,7 @@
   },
   "scripts": {
     "render": "node render.js",
-    "start": "npm run render `./node_modules/.bin/localip` && ./node_modules/.bin/ecstatic ./"
+    "start": "npm run render `./node_modules/.bin/localip`:44444 && ./node_modules/.bin/ecstatic ./ --port 8000"
   },
   "repository": {
     "type": "git",
