@@ -1,15 +1,17 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.rawgit.com/defunctzombie/qr-element/master/dist/qr.js"></script>
+    <!--script src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/defunctzombie/qr-element/master/dist/qr.js"></script-->
+    <script type="text/javascript" src="vendor/qr.js"></script>
+    <script type="text/javascript" src="vendor/jquery.js"></script>
   </head>
   <body>
 
     <section>
       <h1>e-Singapore Government Apps</h1>
       <header id="effect-1" class="effects clearfix">
-          <div class="img" data-qr="5;http://localhost;seres">
+          <div class="img" data-qr="5;192.168.1.4;seres">
             <img src="images/singpass.jpg" alt>
             <div class="caption">
               <span class="captionA">e-Identity</span>
@@ -20,11 +22,11 @@
               <a class="close-overlay hidden">x</a>
             </div>
           </div>
-          <div class="img" data-qr="5;http://localhost;sregco">
+          <div class="img" data-qr="5;192.168.1.4;sregco">
             <img src="images/rocket.jpg" alt>
             <div class="caption">
               <span class="captionA">BizReg</span>
-                <span class="captionB">register your company</span>
+                <span class="captionB">launch your biz</span>
             </div>
             <div class="overlay">
               <a href="#" class="expand"></a>
@@ -36,7 +38,7 @@
     <section>
       <h1>e-Singapore Third Party Apps</h1>
       <header id="effect-1" class="effects clearfix">
-          <div class="img" data-qr="5;http://localhost;snotary">
+          <div class="img" data-qr="5;192.168.1.4;snotary">
             <img src="images/notary.jpg" alt>
             <div class="caption">
               <span class="captionA">Notariiize</span>
@@ -47,10 +49,10 @@
               <a class="close-overlay hidden">x</a>
             </div>
           </div>
-          <div class="img" data-qr="5;http://localhost;scontracts">
+          <div class="img" data-qr="5;192.168.1.4;scontracts">
             <img src="images/contract1.jpg" alt>
             <div class="caption">
-              <span class="captionA">Shake</span>
+              <span class="captionA">Shake on it</span>
                 <span class="captionB">Create and sign contracts</span>
             </div>
             <div class="overlay">
@@ -58,10 +60,10 @@
               <a class="close-overlay hidden">x</a>
             </div>
           </div>
-          <div class="img" data-qr="5;http://localhost;scorpact">
+          <div class="img" data-qr="5;192.168.1.4;sboardact">
             <img src="images/corpAction.png" alt>
             <div class="caption">
-              <span class="captionA">CorpTask</span>
+              <span class="captionA">Board Decisions</span>
                 <span class="captionB">Perform corporate actions from M&amp;A to e-shares</span>
             </div>
             <div class="overlay">
@@ -69,7 +71,7 @@
               <a class="close-overlay hidden">x</a>
             </div>
           </div>
-          <div class="img" data-qr="5;http://localhost;sloans">
+          <div class="img" data-qr="5;192.168.1.4;sloans">
             <img src="images/loans.jpg" alt>
             <div class="caption">
               <span class="captionA">Borrow More</span>
@@ -80,7 +82,7 @@
               <a class="close-overlay hidden">x</a>
             </div>
           </div>
-          <div class="img" data-qr="5;http://localhost;scharity">
+          <div class="img" data-qr="5;192.168.1.4;scharity">
             <img src="images/charity.jpg" alt>
             <div class="caption">
               <span class="captionA">The Giver</span>
