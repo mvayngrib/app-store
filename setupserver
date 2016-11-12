@@ -1,0 +1,60 @@
+
+newprovider snotary Notariiize
+../singapore/images/icons/notary.png
+
+enableproduct snotary tradle.NotarizePropertyOwnership
+enableproduct snotary tradle.NotarizePowerOfAttorney
+
+newprovider sawesome "Awesome Bank"
+../singapore/images/icons/superman.png
+
+enableproduct sawesome tradle.CurrentAccount
+enableproduct sawesome tradle.CollaterizedLoan
+
+restartproviders
+
+
+
+// optional
+newprovider scontracts "Shake on it"
+../singapore/images/icons/handshake.png
+
+newprovider sboardact "Board Decisions"
+../singapore/images/icons/corpAction1.png
+
+newprovider scharity "The Giver"
+../singapore/images/icons/charity.png
+
+newprovider easy "Easy Bank"
+../singapore/images/icons/easy.png
+
+enableproduct easy tradle.CurrentAccount
+enableproduct easy tradle.CollaterizedLoan
+
+newprovider europi "Europi Bank"
+../singapore/images/icons/europi.png
+
+enableproduct europi tradle.LifeInsurance
+enableproduct europi tradle.MortgageProduct
+
+newprovider seres "e-Identity"
+../singapore/images/icons/singpass.png
+
+newproduct "e-Identity"
+tradle.PersonalInfo
+
+enableproduct seres "e-Identity"
+
+newprovider sregco BizReg
+../singapore/images/icons/rocket.png
+
+enableproduct sregco tradle.CompanyRegistration
+
+
+// newproduct tradle.PropertyOwnershipNotarization
+// tradle.PersonalInfo,tradle.PropertyOwnership
+
+// newproduct tradle.PowerOfAttorneyNotarization
+// tradle.PersonalInfo,tradle.PowerOfAttorney
+
+
