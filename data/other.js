@@ -26,6 +26,12 @@ module.exports = [
     description: 'Low interest loans inside',
     qr: `5;${base};sloans`
   },
+  {
+    img: 'images/awesome.jpg',
+    title: 'Awesome Bank',
+    description: 'Lower interest loans inside',
+    qr: `5;${base};sawesome`
+  },
   // {
   //   img: 'images/guarantee.jpg',
   //   title: '$ Guarantee',
