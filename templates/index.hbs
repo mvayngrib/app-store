@@ -47,8 +47,8 @@
       $(document).ready(function(){
         $("[data-qr]").each(function(){
           var qrcode = qr(this.dataset.qr, {
-            background: '#000',
-            foreground: '#fff'
+            background: '#fff',
+            foreground: '#000'
           })
 
           qrcode.className = 'overlaycontent'
