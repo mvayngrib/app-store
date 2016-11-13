@@ -64,9 +64,9 @@ header div img {
 .effects .img:first-child {
   /*margin-left: -15px;*/
 }
-.effects .img:last-child {
+/*.effects .img:last-child {
   margin-right: 0;
-}
+}*/
 .effects .img img {
   display: block;
   margin: 0;
