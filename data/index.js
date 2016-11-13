@@ -34,7 +34,7 @@ function getData (host) {
     other: [
       {
         img: 'images/notary1.jpg',
-        title: 'Notariiize',
+        title: 'Notarize This!',
         description: 'Notarize any kind of documents',
         qr: `5;${host};snotary`
       },
