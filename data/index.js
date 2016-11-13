@@ -4,11 +4,11 @@ module.exports = function genData (host) {
   return {
     sections: [
       {
-        title: 'e-Singapore Government Apps',
+        title: 'Government Certified Apps',
         data: data.gov
       },
       {
-        title: 'e-Singapore Third Party Apps',
+        title: 'Third Party Apps',
         data: data.other
       }
     ]
