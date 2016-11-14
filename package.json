@@ -12,7 +12,8 @@
   },
   "scripts": {
     "render": "node render.js",
-    "start": "node serve.js"
+    "start": "node serve.js",
+    "azure": "node serve.js https://azure1.tradle.io"
   },
   "repository": {
     "type": "git",
